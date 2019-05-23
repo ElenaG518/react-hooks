@@ -1,9 +1,6 @@
 import React from 'react';
 import useResources from './useResources';
 
-
-
-
 const ResourceList = ({resource}) => {
   console.log(resource);
   const resources = useResources(resource);
@@ -27,7 +24,6 @@ const ResourceList = ({resource}) => {
 //     },
 //     [resource]
 //   );
-
   
   return (
   <ul>
